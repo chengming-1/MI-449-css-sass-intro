@@ -1,0 +1,55 @@
+@import "_variables";
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-size-set;
+}
+
+h1 {
+  color: $first-palette;
+}
+
+h2 {
+  color: $second-palette;
+}
+
+h3 {
+  color: $third-palette;
+}
+
+h4 {
+  color: $fourth-palette;
+}
+
+h5 {
+  color: lighten($third-palette, 40%);
+}
+
+label {
+  font-size: $font-size-set * 2;
+  color: $third-palette;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: $first-palette;
+}
+
+th:hover {
+  color: $fourth-palette;
+}
+
+img,input,textarea {
+  font-family: $serif-fonts;
+  font-size: $font-size-set;
+  border: $set-border;
+}
+
+a {
+  font-size: $font-size-set * 0.9;
+  color: $first-palette;
+
+  &:hover {
+    color: lighten($second-palette, 20%);
+  }
+}
